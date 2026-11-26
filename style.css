@@ -1,0 +1,155 @@
+:root{
+    --black: #000000;
+    --captions: #485C11;
+    --Paragraph: #6F6F6F;
+    --Divider: #E9E9E9;
+}
+/* p{
+    color: brown;
+}
+body{
+    background: bisque;
+}
+p{
+    position: relative;
+ margin-left: 20px;
+    padding-top: 50px;
+}
+.l1{
+    position: absolute;
+    padding: 0%;
+    top: 100px;
+    right: 0;
+    border: 1px solid rgb(59, 2, 2);
+    border-radius: 3px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    display: flex;
+    width: 220px;
+    justify-content: center;
+   transition: 0.5s; 
+}
+.l1:hover{
+    transition: 0.4s;
+    box-shadow: 10px 10px rgb(84, 83, 83);
+    border-radius: 15px;  
+}
+div{
+    font-size: 35px;
+    font-style: italic;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    word-wrap: break-word;
+    max-width: 300px;
+    transform: translate(450px);
+    transition: 0.3s;
+
+}
+div:hover{
+    font-size: 50px;
+    color: brown;
+} */
+ body{
+    font-family: "Crimson";
+    transition: 0,7s;
+
+ }
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 20px 0px;
+    margin-bottom: 72px;
+    align-items: center;
+}
+.main{
+    max-width: 1200px;
+    margin-inline: auto;
+
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_list{
+    display: flex;
+    list-style: none;
+    gap: 27px;
+
+}
+a{
+    text-decoration: none;
+    font-family: "DM Sans";
+}
+.header_link{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -2,5%;
+    color: var(--Paragraph);
+}
+.header_link.main{
+    color: var(--black);
+}
+.header_link:hover{
+    color: var(--black);
+}
+.header_button{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -2,5%; 
+    color: white;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--captions) ;
+    padding: 14px 22px;
+    border-radius: 30px;
+}
+.button:hover{
+    opacity: 70%;
+}
+h1{
+    font-size: 160px;
+    font-weight: 500;
+    text-align: center;
+}
+.hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.hero_image{
+    width: 1200px;
+}
+h5{
+    color: var(--Paragraph);
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+     max-width: 1200px;
+     font-weight: 500;
+
+}
+.trust{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--Divider);
+}
